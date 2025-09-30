@@ -1,0 +1,57 @@
+/* JVW Empire - Styles */
+:root {
+    --imperial-black: #0A0A0A;
+    --imperial-gold: #D4AF37;
+    --accent-white: #FFFFFF;
+    --secondary-dark: #1A1A1A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--imperial-black);
+    color: var(--accent-white);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+header h1 {
+    color: var(--imperial-gold);
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.manifesto {
+    margin: 2rem 0;
+}
+
+.manifesto p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    letter-spacing: 0.2rem;
+}
+
+.online {
+    color: var(--imperial-gold);
+    position: relative;
+}
+
+footer {
+    margin-top: 3rem;
+    color: var(--imperial-gold);
+    font-size: 1rem;
+}
